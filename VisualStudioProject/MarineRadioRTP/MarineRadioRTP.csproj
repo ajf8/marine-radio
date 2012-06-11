@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BDC55AC4-4977-44D7-8DAD-AA5FA0800E13}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MarineRadioRTP</RootNamespace>
+    <AssemblyName>MarineRadioRTP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <ApplicationIcon>marineradiosim_48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Jayrock, Version=0.9.8316.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Jayrock.dll</HintPath>
+    </Reference>
+    <Reference Include="Jayrock.Json, Version=0.9.8316.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\Jayrock.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="LSTCommon, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\LSTCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.DirectX.DirectSound, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="MSR.LST.Net.Rtp, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\MSR.LST.Net.Rtp.dll</HintPath>
+    </Reference>
+    <Reference Include="NetworkingBasics, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\NetworkingBasics.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.4.8.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Audio\AudioCaptureException.cs" />
+    <Compile Include="Audio\BeepNotification.cs" />
+    <Compile Include="CommandDispatchedEventArgs.cs" />
+    <Compile Include="DSC\DscDebugger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DSC\DscDebugger.Designer.cs">
+      <DependentUpon>DscDebugger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSC\DscRequestLoggedEventArgs.cs" />
+    <Compile Include="DSC\DscLog.cs" />
+    <Compile Include="DSC\DscEnvelope.cs" />
+    <Compile Include="DSC\AddressRecord.cs" />
+    <Compile Include="DSC\AddressRecordCollection.cs" />
+    <Compile Include="Audio\ALawDecode.cs" />
+    <Compile Include="Audio\ALawEncode.cs" />
+    <Compile Include="EventArgs\AllShipsCallEventArgs.cs" />
+    <Compile Include="EventArgs\ChannelChangeEventArgs.cs" />
+    <Compile Include="EventArgs\VhfAnnounceEventArgs.cs" />
+    <Compile Include="NUnitFixtures\DscTests.cs" />
+    <Compile Include="Radar\RadarItem.cs" />
+    <Compile Include="Radar\Radar.cs" />
+    <Compile Include="EventArgs\ScanReplyEventArgs.cs" />
+    <Compile Include="EventArgs\ScanRequestEventArgs.cs" />
+    <Compile Include="DSC\CommandDispatcher.cs" />
+    <Compile Include="DSC\DscRequests.cs" />
+    <Compile Include="Configuration\ConfigurationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuration\ConfigurationDialog.designer.cs">
+      <DependentUpon>ConfigurationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CyclingMarineRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\CyclingMenuItem.cs" />
+    <Compile Include="UserControls\CyclingMenuItemCollection.cs" />
+    <Compile Include="EventArgs\IndividualCallAckEventArgs.cs" />
+    <Compile Include="EventArgs\IndividualCallEventArgs.cs" />
+    <Compile Include="NUnitFixtures\ConfigurationSingletonTests.cs" />
+    <Compile Include="DSC\OutgoingDistress.cs" />
+    <Compile Include="DSC\DistressEventArgs.cs" />
+    <Compile Include="UserControls\LcdLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GPS\GPSLocation.cs" />
+    <Compile Include="GPS\GPSUnit.cs" />
+    <Compile Include="EventArgs\GPSUnitUpdateEventArgs.cs" />
+    <Compile Include="ICM411.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ICM411.Designer.cs">
+      <DependentUpon>ICM411.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ICM411Knob.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UserControls\IndicatorLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EventArgs\KnobChangeEventArgs.cs" />
+    <Compile Include="Configuration\MulticastNetwork.cs" />
+    <Compile Include="EventArgs\JsonRpcEventArg.cs" />
+    <Compile Include="MarineRadioException.cs" />
+    <Compile Include="DSC\MulticastCommandServer.cs" />
+    <Compile Include="GPS\NoGPSLocAvailableException.cs" />
+    <Compile Include="EventArgs\PositionReplyEventArgs.cs" />
+    <Compile Include="EventArgs\AISNodeDiscoveryEventArgs.cs" />
+    <Compile Include="EventArgs\AISNodeUpdateEventArgs.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Configuration\ConfigurationDialog.resx">
+      <DependentUpon>ConfigurationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSC\DscDebugger.resx">
+      <DependentUpon>DscDebugger.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ICM411.resx">
+      <DependentUpon>ICM411.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Radar\RadarWindow.resx">
+      <DependentUpon>RadarWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DSC\ProtocolConstants.cs" />
+    <Compile Include="DSC\AISRegistry.cs" />
+    <Compile Include="Radar\RadarWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Radar\RadarWindow.Designer.cs">
+      <DependentUpon>RadarWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MarineRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EventArgs\ReceiveAISEventArgs.cs" />
+    <Compile Include="Audio\RtpAudioFacade.cs" />
+    <Compile Include="Configuration\ConfSingleton.cs" />
+    <Compile Include="EventArgs\TimeToSendDistressEventArgs.cs" />
+    <Compile Include="EventArgs\UnknownDSCMessageEventArgs.cs" />
+    <Compile Include="Audio\WinMM.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic411_vol_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\covered_distress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IC-M411.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="marineradiosim_48.ico" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="JsonRpcEventArgs.cd" />
+    <None Include="Resources\notifyBeep.wav" />
+    <None Include="Resources\buttonBeep.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

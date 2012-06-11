@@ -1,0 +1,58 @@
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\ResolveAssemblyReference.cache
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.Form1.resources
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.Properties.Resources.resources
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.csproj.GenerateResource.Cache
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\MarineRadioRTP.exe
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\MarineRadioRTP.pdb
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\LSTCommon.dll
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\MSR.LST.Net.Rtp.dll
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\NetworkingBasics.dll
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.exe
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.pdb
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\Jayrock.dll
+E:\Documents and Settings\Alan\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\Jayrock.Json.dll
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\MarineRadioRTP.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\MarineRadioRTP.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\Blaney.Radar.dll
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\Blaney.Radar.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.csproj.GenerateResource.Cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.RadarWindow.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.Skins.ICM505.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.Skins.ICM603.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.Properties.Resources.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.ConfigurationDialog.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\obj\Debug\MarineRadioRTP.ICM411.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\nunit.framework.dll
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadioRTP\MarineRadioRTP\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\bin\Debug\MarineRadioRTP.exe
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\bin\Debug\MarineRadioRTP.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\bin\Debug\nunit.framework.xml
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\bin\Debug\Blaney.Radar.pdb
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.ConfigurationDialog.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.ICM411.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.Skins.ICM505.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.Skins.ICM603.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.Properties.Resources.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.RadarWindow.resources
+C:\Documents and Settings\Administrator\My Documents\Visual Studio 2008\Projects\MarineRadioRTP\obj\Debug\MarineRadioRTP.csproj.GenerateResource.Cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\bin\Debug\MarineRadioRTP.exe
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\bin\Debug\MarineRadioRTP.pdb
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\bin\Debug\nunit.framework.xml
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.ConfigurationDialog.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.ICM411.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.Properties.Resources.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.RadarWindow.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.csproj.GenerateResource.Cache
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\obj\Debug\MarineRadioRTP.DscDebugger.resources
+C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\bin\Debug\nunit.framework.dll
+C:\Users\Alan\Desktop\MarineRadio\VisualStudioProject\MarineRadioRTP\obj\Debug\MarineRadioRTP.exe
+C:\Users\Alan\Desktop\MarineRadio\VisualStudioProject\MarineRadioRTP\obj\Debug\MarineRadioRTP.pdb

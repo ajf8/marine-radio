@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1018]C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\bin\Debug\MarineRadioRTP.exe</TopNode>
+  <SelectedNode>[0-1010]MarineRadioRTP.NUnitFixtures.DscTests.TestCall</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1018]C:\Users\Alan\Documents\Visual Studio 2008\Projects\MarineRadio\MarineRadioRTP\bin\Debug\MarineRadioRTP.exe" Expanded="true" Checked="true">
+      <Nodes>
+        <Node UniqueName="[0-1019]MarineRadioRTP" Expanded="true" Checked="true">
+          <Nodes>
+            <Node UniqueName="[0-1020]MarineRadioRTP.NUnitFixtures" Expanded="true" Checked="true">
+              <Nodes>
+                <Node UniqueName="[0-1000]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests" Expanded="true" Checked="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1001]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests.InvalidIp" Checked="true" />
+                    <Node UniqueName="[0-1002]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests.Ipv6Ip" Checked="true" />
+                    <Node UniqueName="[0-1004]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests.MmsiTooLong" Checked="true" />
+                    <Node UniqueName="[0-1005]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests.MmsiTooShort" Checked="true" />
+                    <Node UniqueName="[0-1006]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests.SaveCompressionChoice" Checked="true" />
+                    <Node UniqueName="[0-1003]MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests.SaveMulticastPrefix" Checked="true" />
+                  </Nodes>
+                </Node>
+                <Node UniqueName="[0-1007]MarineRadioRTP.NUnitFixtures.DscTests" Expanded="true" Checked="true">
+                  <Nodes>
+                    <Node UniqueName="[0-1013]MarineRadioRTP.NUnitFixtures.DscTests.AllShips" Checked="true" />
+                    <Node UniqueName="[0-1011]MarineRadioRTP.NUnitFixtures.DscTests.Distress" Checked="true" />
+                    <Node UniqueName="[0-1017]MarineRadioRTP.NUnitFixtures.DscTests.IndvCall" Checked="true" />
+                    <Node UniqueName="[0-1014]MarineRadioRTP.NUnitFixtures.DscTests.PollReply" Checked="true" />
+                    <Node UniqueName="[0-1016]MarineRadioRTP.NUnitFixtures.DscTests.PollRequest" Checked="true" />
+                    <Node UniqueName="[0-1012]MarineRadioRTP.NUnitFixtures.DscTests.PosReply" Checked="true" />
+                    <Node UniqueName="[0-1015]MarineRadioRTP.NUnitFixtures.DscTests.PosRequest" Checked="true" />
+                    <Node UniqueName="[0-1009]MarineRadioRTP.NUnitFixtures.DscTests.ScanRequest" Checked="true" />
+                    <Node UniqueName="[0-1010]MarineRadioRTP.NUnitFixtures.DscTests.TestCall" Checked="true" />
+                    <Node UniqueName="[0-1008]MarineRadioRTP.NUnitFixtures.DscTests.VhfAnnounce" Checked="true" />
+                  </Nodes>
+                </Node>
+              </Nodes>
+            </Node>
+          </Nodes>
+        </Node>
+      </Nodes>
+    </Node>
+  </Nodes>
+</VisualState>

@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MarineRadioRTP.DistressEventArgs">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DSC\DistressEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AllShipsCallEventArgs">
+    <Position X="10" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>EventArgs\AllShipsCallEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.IndividualCallAckEventArgs">
+    <Position X="3.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\IndividualCallAckEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.IndividualCallEventArgs">
+    <Position X="3.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAADAA=</HashCode>
+      <FileName>EventArgs\IndividualCallEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.JsonRpcEventArgs">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAQAAAAAAAACAAAAgAAAAAAAAAAAAAAEFAA=</HashCode>
+      <FileName>EventArgs\JsonRpcEventArg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.PositionReplyEventArgs">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\PositionReplyEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ReceiveAISEventArgs">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\ReceiveAISEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ScanReplyEventArgs">
+    <Position X="14.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\ScanReplyEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ScanRequestEventArgs">
+    <Position X="1" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\ScanRequestEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="G711Audio.ALawDecoder" Collapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAgAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Audio\ALawDecode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="G711Audio.ALawEncoder" Collapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Audio\ALawEncode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AudioCaptureException" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Audio\AudioCaptureException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AudioCaptureExceptionEventArgs" Collapsed="true">
+    <Position X="17" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Audio\AudioCaptureException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.BeepNotification" Collapsed="true">
+    <Position X="18.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQCACApAAAIAAAAAEAABAAAAAQAAAAAAAAQA=</HashCode>
+      <FileName>Audio\BeepNotification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.RtpAudioFacade" Collapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJJABAQigRIoKEAASAgwAAUCCIggkBkgBAJAQCAIQgo=</HashCode>
+      <FileName>Audio\RtpAudioFacade.cs</FileName>
+      <NewMemberFileName>Audio\RTPAudioFacade.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.CommandDispatchedEventArgs" Collapsed="true">
+    <Position X="22.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandDispatchedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ConfigurationDialog" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAQIEAECAAAxQAAACAAQACAAJIAIAAQEABQAABBAA=</HashCode>
+      <FileName>Configuration\ConfigurationDialog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ConfSingleton" Collapsed="true">
+    <Position X="17" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACQIIACgQAAAhAgASCGEAISAADACAAAREgACASIAAA=</HashCode>
+      <FileName>Configuration\ConfSingleton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.MulticastNetwork">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAIgAAAAARkEAQABAAAACQAAQkAAAgAIAgAAAAA=</HashCode>
+      <FileName>Configuration\MulticastNetwork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AddressRecord" Collapsed="true">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgEAAAAAAQAgAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>DSC\AddressRecord.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AddressRecordCollection" Collapsed="true">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAIAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DSC\AddressRecordCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AISRegistry" Collapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DSC\AISRegistry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.CommandDispatcher" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAABAAQAAAEAAAAAAAAAABAAAAgAAAAAAAAACAAAE=</HashCode>
+      <FileName>DSC\CommandDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.DscDebugger" Collapsed="true">
+    <Position X="22.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAgCAACgAAAACACICWBwBIGQAAUEAAAIAAAAA=</HashCode>
+      <FileName>DSC\DscDebugger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.DscEnvelope" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>DSC\DscEnvelope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.DscLogItem" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAIAAAAAEAAAABAAABAAAAAAAAAACAA=</HashCode>
+      <FileName>DSC\DscLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.DscLog" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAEAABAAAAAACAQAAAAAEACAAAAAAABAAAA=</HashCode>
+      <FileName>DSC\DscLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.DscRequestLoggedEventArgs" Collapsed="true">
+    <Position X="17" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DSC\DscRequestLoggedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.DSCRequests" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQEIIAAAAABBAAgAAAIAAAAACAAIAAIQAAAQEAABACA=</HashCode>
+      <FileName>DSC\DscRequests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.MulticastCommandServer" Collapsed="true">
+    <Position X="22.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAQAgAAAAxAGAAAAHBAFkAEAAACgBAAAAgAAAAAACA=</HashCode>
+      <FileName>DSC\MulticastCommandServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.OutgoingDistress" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQCAAAJAAAIAAAAAQCAAAABAAIAAAABAIAAI=</HashCode>
+      <FileName>DSC\OutgoingDistress.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ProtocolConstants" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IhKABoECDAAAAEIgRAAAAAAAAEQEBCAFggAEgAAAAAM=</HashCode>
+      <FileName>DSC\ProtocolConstants.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AISNodeDiscoveryEventArgs" Collapsed="true">
+    <Position X="20.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\AISNodeDiscoveryEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.AISNodeUpdateEventArgs" Collapsed="true">
+    <Position X="22.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\AISNodeUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ChannelChangeEventArgs" Collapsed="true">
+    <Position X="20.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\ChannelChangeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.GPSUnitUpdateEventArgs" Collapsed="true">
+    <Position X="22.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\GPSUnitUpdateEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.KnobChangeEventArgs" Collapsed="true">
+    <Position X="18.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\KnobChangeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.TimeToSendDistressEventArgs" Collapsed="true">
+    <Position X="17" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgs\TimeToSendDistressEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.UnknownDSCMessageEventArgs" Collapsed="true">
+    <Position X="18.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>EventArgs\UnknownDSCMessageEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.GPSUnit" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAIAkAAAAIAAAAAAFhAABAAQAIAAAEAAAA=</HashCode>
+      <FileName>GPS\GPSUnit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.NoGpsDataException" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GPS\NoGPSLocAvailableException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ICM411" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wnzDP05k6q3Nrx3/793rknyOypt/kjXvNc8hmSn5m08=</HashCode>
+      <FileName>ICM411.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.MarineRadioException" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MarineRadioException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.Program" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.RadarWindow" Collapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAUAAwASAAAgAAAASAAAACBABJAQAgCFAAAABIAAA=</HashCode>
+      <FileName>Radar\RadarWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.CyclingMarineRadioButton" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAABQABAAAGIEAEQAAAIgABAAAMAAAAAQAAAgAA=</HashCode>
+      <FileName>UserControls\CyclingMarineRadioButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.CyclingMenuItem" Collapsed="true">
+    <Position X="18.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAoAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\CyclingMenuItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.CyclingMenuItemCollection" Collapsed="true">
+    <Position X="20.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\CyclingMenuItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.ICM411Knob" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAACAAAAAgAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\ICM411Knob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.IndicatorLabel" Collapsed="true">
+    <Position X="17" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserControls\IndicatorLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.LcdLabel" Collapsed="true">
+    <Position X="20.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>2AAAAIAIAACBAEAAAEAAAAAIAAAACAAgAACCCAASQBA=</HashCode>
+      <FileName>UserControls\LcdLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.MarineRadioButton" Collapsed="true">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQQyAAAFAAAAAAAQBIAEAACAIiAAgAgAJhAQE=</HashCode>
+      <FileName>UserControls\MarineRadioButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Win32.WinMM" Collapsed="true">
+    <Position X="20.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAACgAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Audio\WinMM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.NUnitFixtures.ConfigurationSingletonTests" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIABAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>NUnitFixtures\ConfigurationSingletonTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.Properties.Resources">
+    <Position X="25.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAEAAAIBAACAAAAABEBgIAQAAAAAgAAAAABIAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MarineRadioRTP.Properties.Settings" Collapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blaney.Radar" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQBHAAAgAAAAQgCCAAgAAAgAhACAgDAAAASABBIABAA=</HashCode>
+      <FileName>Radar\Radar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blaney.ImageUpdateEventArgs" Collapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Radar\Radar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Blaney.RadarItem" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BRAAAAAAFACAgAQAAEAAAEAAgFAAAgQAAAAAAAAACAA=</HashCode>
+      <FileName>Radar\RadarItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MarineRadioRTP.ScrollDirection" Collapsed="true">
+    <Position X="17" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>UserControls\LcdLabel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Blaney.ImageUpdateHandler" Collapsed="true">
+    <Position X="17" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Radar\Radar.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
